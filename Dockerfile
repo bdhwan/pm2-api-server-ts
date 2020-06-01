@@ -14,7 +14,7 @@ RUN sudo npm install npm@latest -g
 RUN sudo npm install typescript -g
 
 
-RUN sudo apt purge fonts-nanum* fonts-unfont*
+RUN sudo apt purge -y fonts-nanum* fonts-unfont*
 RUN cd /usr/share/fonts
 RUN rm -rf truetype/
 RUN sudo apt install fonts-noto-cjk
