@@ -1,4 +1,4 @@
 
 #!/bin/bash
-docker build --tag bdhwan/pm2-api-server-ts:3.1.1 .
-docker push bdhwan/pm2-api-server-ts:3.1.1
+docker build --tag bdhwan/pm2-api-server-ts:3.3.0 .
+docker push bdhwan/pm2-api-server-ts:3.3.0
