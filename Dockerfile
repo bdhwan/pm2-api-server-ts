@@ -12,7 +12,7 @@ RUN sudo apt-get install -y fonts-nanum-coding
 
 RUN sudo npm install npm@latest -g
 RUN sudo npm install typescript -g
-
+RUN sudo npm install pm2 -g
 
 
 RUN sudo apt install fonts-noto-cjk
