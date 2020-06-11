@@ -9,6 +9,7 @@ RUN sudo apt-get install -y phantomjs
 RUN sudo apt-get install -y fonts-unfonts-core
 RUN sudo apt-get install -y fonts-unfonts-extra
 RUN sudo apt-get install -y fonts-nanum-coding
+RUN sudo apt-get install -y redis-tools
 
 RUN sudo npm install npm@latest -g
 RUN sudo npm install typescript -g
